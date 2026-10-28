@@ -85,7 +85,7 @@ I used the PrestaShop command-line password reset tool to restore access to the 
 
 This project gave me practical experience with network access controls, database access, server configuration and troubleshooting.
 
-It also provides a foundation for future blue team work, such as reviewing Apache logs, monitoring failed login attempts and investigating unusual activity.
+I built on this deployment by analysing its Apache access and error logs in a [web server log investigation](https://github.com/kemfon-edet/web-server-log-investigation), examining suspicious requests and preserving relevant evidence.
 
 ## Limitations and Improvements
 
