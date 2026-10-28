@@ -130,3 +130,7 @@ RDS configuration showing that public access is disabled. The database endpoint 
 The database security group permits MySQL traffic on port 3306 from the application's security group. The AWS account number has been hidden.
 
 ![Database security group rule](03-database-access-rule.png)
+
+## Technical Deployment Notes
+
+See the [deployment notes](deployment-notes.md) for the Linux commands, Apache configuration, database setup and verification steps.
