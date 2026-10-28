@@ -4,7 +4,7 @@
 
 I deployed a working PrestaShop demo store on AWS, using an EC2 instance for the website and a separate Amazon RDS MySQL database.
 
-I completed this as a practical assessment and documented it as a learning project. I used documentation, research and AI guidance to work through the setup and troubleshoot errors.
+I completed this deployment as a technical assessment and documented it as a learning project. I used external learning resources, documentation and AI guidance for configuration, command syntax and troubleshooting. I checked the deployment through the AWS console, server commands and browser tests.
 
 ## What I Built
 
@@ -101,7 +101,7 @@ This was a learning deployment, and it needs further work before production use.
 
 I learned how a web application connects to a separate database, how security groups control traffic and how to investigate installation problems step by step.
 
-I am continuing to build my understanding so I can explain and repeat the configuration independently.
+Key lessons included why the database should remain private, how security groups restrict database traffic to the application server, and why the application should use a dedicated database user.
 
 ## Next Steps
 
