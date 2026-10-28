@@ -134,3 +134,9 @@ The database security group permits MySQL traffic on port 3306 from the applicat
 ## Technical Deployment Notes
 
 See the [deployment notes](deployment-notes.md) for the Linux commands, Apache configuration, database setup and verification steps.
+
+### Apache Web Log Investigation
+
+Investigated suspicious requests targeting potential backups and data exports. Correlated access and error logs, documented findings and preserved evidence with SHA-256 integrity checks.
+
+[Explore the investigation](https://github.com/kemfon-edet/web-server-log-investigation)
