@@ -110,3 +110,23 @@ I am continuing to build my understanding so I can explain and repeat the config
 - Collect and analyse web server logs.
 - Practise detecting suspicious requests and failed login attempts.
 - Review AWS usage and remove resources when they are no longer needed.
+
+## Project Screenshots
+
+### Working Storefront
+
+The PrestaShop demo storefront after installation.
+
+![PrestaShop storefront](01-storefront.png)
+
+### Private Database Configuration
+
+RDS configuration showing that public access is disabled. The database endpoint has been hidden.
+
+![Private RDS database configuration](02-private-rds.png)
+
+### Database Access Rule
+
+The database security group permits MySQL traffic on port 3306 from the application's security group. The AWS account number has been hidden.
+
+![Database security group rule](03-database-access-rule.png)
